@@ -1,6 +1,27 @@
-#inicio {
-    background: url('https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_960_720.jpg') center no-repeat;
-    background-size: cover;
-    height:1080px;
-    display: flex;
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
+.noticia {
+  text-justify: auto;
+}
+#home {
+  padding-top: 10rem;
+  background-image: url(../media/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h5 {
+  text-align: center;
+}
+
+ul.timeline {
+  padding-top: 2rem;
+  list-style-type: none;
+}
+
+.img-fluid{height: 100%; object-fit: cover;}
+
+.row{padding: 5px;}
